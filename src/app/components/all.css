@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quattrocento:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+.fnt{
+    font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+}
+.ffnt{
+    font-family: "Quattrocento", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.ft{
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+}
