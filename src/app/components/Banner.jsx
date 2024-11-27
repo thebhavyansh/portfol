@@ -10,7 +10,6 @@ function Banner() {
         <p className="sm:text-center">Hello! I'm</p> <strong className="text-[#cd9403] ">Bhavyansh Tomar</strong>
       </h2>
       <h3 className="md:text-[40px] text-[20px]">
-        {" "}
         A <strong>Full Stack Developer</strong>
       </h3>
       <div className="">

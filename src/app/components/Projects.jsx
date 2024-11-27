@@ -93,8 +93,8 @@ function Projects() {
         <p>Worked On</p>
       </div>
       <div className="bg-[#102762] flex flex-col md:flex-row p-5 border border-transparent justify-between rounded-3xl md:w-[900px]">
-        <div className="md:m-5 m-8 flex flex-col gap-2">
-          <h1 className="md:text-[40px] text-center text-[30px] font-bold mb-4">Fshare</h1>
+        <div className="md:m-5 m-8 text-white flex flex-col gap-2">
+          <h1 className="md:text-[40px]  text-center text-[30px] font-bold mb-4">Fshare</h1>
           <h4>A secure file-sharing app with password-protected file sharing</h4>
           <h2 className="my-2 text-[20px] font-semibold">Worked on</h2>
           <div className="flex gap-2 flex-wrap"><div className="flex border border-transparent gap-2 rounded-full p-1 bg-[#405380]  text-white">
