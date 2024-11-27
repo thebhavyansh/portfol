@@ -2,7 +2,6 @@ import Image from "next/image";
 import React from "react";
 import main from "../../../public/image.png";
 import "./all.css";
-import { motion } from "motion/react"
 import Link from "next/link";
 function Banner() {
   return (

@@ -209,7 +209,7 @@ function Projects() {
       <div className="text-[#cd9403] ft items-center  flex flex-col md:text-[45px] text-20px font-bold">
         <p>Technologies i used</p>
       </div>
-      <div className="flex justify-center items-center flex-wrap gap-4 w-[800px]">
+      <div className="flex justify-center items-center flex-wrap gap-4 md:w-[800px]">
       {technologie.map((title,index)=>(
             <div className="flex"><div className="flex border rounded-full p-1 bg-[#c9c9c9] text-black">
             <Image src={title.import} className="border rounded-full" width={23} height={20} alt="ll"/>

@@ -5,18 +5,18 @@ import "./all.css";
 function Contact() {
   return (
     <div className="flex flex-col items-center justify-start">
-      <div className="text-[#cd9403] ft text-center md:text-[45px] text-20px font-bold">
+      <div className="text-[#cd9403] ft text-center md:text-[45px] text-[30px] font-bold">
         <p>Checkout my </p>
         <strong>Resume</strong>
       </div>
-      <div className="border border-transparent rounded-2xl bg-[#2b2b2b] my-3 w-[800px] flex flex-col justify-center items-center">
+      <div className="border border-transparent rounded-2xl bg-[#2b2b2b] my-3 md:w-[800px] flex flex-col justify-center items-center">
         <Image
           src={profile}
           width={100}
           height={80}
           className="border my-4  rounded-[60%]"
         />
-        <div className="text-[#cd9403] md:text-[35px] text-20px font-bold">
+        <div className="text-[#cd9403] md:text-[35px] text-[30px] font-bold">
           Bhavyansh Tomar
         </div>
         <div className="text-[20px]">
@@ -47,9 +47,9 @@ function Contact() {
       <div className="my-3">
 
       <section class="bg-[#2b2b2b] border border-transparent rounded-2xl">
-  <div class="py-8 lg:py-16 px-4 mx-auto w-[800px] border rounded-2xl border-transparent">
+  <div class="py-8 lg:py-16 px-4 mx-auto md:w-[800px] w-[300px] border rounded-2xl border-transparent">
      
-      <form action="#" class="space-y-8">
+      <form action="#" className="space-y-8">
       <div>
               <label for="name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-300">Your name</label>
               <input type="text" id="name" class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light" placeholder="Your Name" required/>
@@ -66,10 +66,10 @@ function Contact() {
               <label for="message" class="block mb-2 text-sm font-medium text-gray-900 dark:text-gray-400">Your message</label>
               <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Leave a comment..."></textarea>
           </div>
-          <button className="flex items-center gap-2 border rounded-full px-4 py-2 text-black hover:text-[#cd9403] hover:fill-[#cd9403] bg-[#cd9403] duration-150 hover:bg-transparent  border-[#cd9403] active:bg-indigo-700">
-      
+          <div className="flex justify-center items-center "><button className=" gap-2 border rounded-full px-4 py-2 text-black hover:text-[#cd9403] hover:fill-[#cd9403] bg-[#cd9403] duration-150 hover:bg-transparent  border-[#cd9403] active:bg-indigo-700">
             Send
-          </button>
+          </button></div>
+          
       </form>
   </div>
 </section>
