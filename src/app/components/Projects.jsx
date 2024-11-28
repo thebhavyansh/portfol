@@ -92,7 +92,7 @@ function Projects() {
         <p>Projects I've </p>
         <p>Worked On</p>
       </div>
-      <div className="bg-[#102762] flex flex-col md:flex-row p-5 border border-transparent justify-between rounded-3xl md:w-[900px]">
+      <div className="bg-[#102762] flex flex-col m-2 md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
         <div className="md:m-5 m-8 text-white flex flex-col gap-2">
           <h1 className="md:text-[40px]  text-center text-[30px] font-bold mb-4">Fshare</h1>
           <h4>A secure file-sharing app with password-protected file sharing</h4>

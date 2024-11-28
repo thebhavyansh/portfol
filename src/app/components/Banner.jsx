@@ -5,7 +5,7 @@ import "./all.css";
 import Link from "next/link";
 function Banner() {
   return (
-    <div className="flex flex-col items-center my-5 bg-black  md:my-20 md:gap-5 gap-3 ">
+    <div className="flex flex-col items-center my-5  md:my-20 md:gap-5 gap-3 ">
       <h2 className="md:text-[55px] md:flex-row md:gap-5 flex flex-col items-center justify-center text-[30px] ft">
         <p className="sm:text-center">Hello! I'm</p> <strong className="text-[#cd9403] ">Bhavyansh Tomar</strong>
       </h2>
