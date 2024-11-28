@@ -133,7 +133,7 @@ function Projects() {
           </Link>
         </div>
       </div>
-      <div className="bg-[#3f031b]  flex flex-col md:flex-row p-5 border border-transparent justify-between rounded-3xl md:w-[900px]">
+      <div className="bg-[#3f031b]  flex flex-col m-2 md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
       <div className="min-w-[380px] cursor-pointer  flex flex-col items-center bg-[#7d163e] border border-transparent rounded-3xl m-5">
       <Image src={ai} width={600} height={600} className="p-4 hover:scale-110 transform transition duration-100"/>
           <Link href="/" className="flex border opacity-70 gap-2 w-[300px] mb-3 justify-center items-center rounded-full p-3 bg-transparent    text-white">
@@ -170,7 +170,7 @@ function Projects() {
           </div>
         </div>
       </div>
-      <div className="bg-[#820333] p-5 flex flex-col md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
+      <div className="bg-[#820333] flex flex-col m-2 md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
         <div className=" md:m-5 m-3 flex flex-col gap-2">
           <h1 className="md:text-[40px] text-center text-[30px] font-bold mb-4">Travel Taxi</h1>
           <h2 className="my-2 text-[20px] font-semibold">Worked on</h2>
