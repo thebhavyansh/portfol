@@ -93,7 +93,7 @@ function Projects() {
         <p>Worked On</p>
       </div>
       <div className="bg-[#102762] flex flex-col m-2 md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
-        <div className="md:m-5 m-8 text-white flex flex-col gap-2">
+        <div className="md:m-5 m-3 text-white flex flex-col gap-2">
           <h1 className="md:text-[40px]  text-center text-[30px] font-bold mb-4">Fshare</h1>
           <h4>A secure file-sharing app with password-protected file sharing</h4>
           <h2 className="my-2 text-[20px] font-semibold">Worked on</h2>
@@ -125,8 +125,8 @@ function Projects() {
           </div>
         </div>
 
-        <div className="min-w-[380px] max-h-[400px]  flex items-center flex-col bg-[#0258da] border border-transparent rounded-3xl m-5">
-          <Image src={fshare} width={600} height={600} className="p-4"/>
+        <div className="min-w-[380px] cursor-pointer max-h-[400px]  flex items-center flex-col bg-[#0258da] border border-transparent rounded-3xl m-5">
+          <Image src={fshare} width={600} height={600} className="p-4 hover:scale-110 transform transition duration-100"/>
           <Link href="/" className="flex border border-transparent gap-2 w-[300px] justify-center mb-3 items-center rounded-full p-3 bg-[#263d73]    text-white">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
           <p className="text-[18px]">Go to FShare</p>
@@ -134,14 +134,14 @@ function Projects() {
         </div>
       </div>
       <div className="bg-[#3f031b]  flex flex-col md:flex-row p-5 border border-transparent justify-between rounded-3xl md:w-[900px]">
-      <div className="min-w-[380px]  flex flex-col items-center bg-[#7d163e] border border-transparent rounded-3xl m-5">
-      <Image src={ai} width={600} height={600} className="p-4"/>
+      <div className="min-w-[380px] cursor-pointer  flex flex-col items-center bg-[#7d163e] border border-transparent rounded-3xl m-5">
+      <Image src={ai} width={600} height={600} className="p-4 hover:scale-110 transform transition duration-100"/>
           <Link href="/" className="flex border opacity-70 gap-2 w-[300px] mb-3 justify-center items-center rounded-full p-3 bg-transparent    text-white">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
           <p className="text-[18px]">Go to Mock-interview</p>
           </Link>
       </div>
-        <div className="md:m-5 m-8 flex flex-col gap-2">
+        <div className="md:m-5 m-3 flex flex-col gap-2">
           <h1 className="md:text-[40px] text-center text-[30px] font-bold mb-4">Ai-mock-interview</h1>
           <h4>A full-stack AI mock interview platform with real-time audio/video recording and speech-to-text conversion.</h4>
           <h2 className="my-2 text-[20px] font-semibold">Worked on</h2>
@@ -171,7 +171,7 @@ function Projects() {
         </div>
       </div>
       <div className="bg-[#820333] p-5 flex flex-col md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
-        <div className=" md:m-5 m-8 flex flex-col gap-2">
+        <div className=" md:m-5 m-3 flex flex-col gap-2">
           <h1 className="md:text-[40px] text-center text-[30px] font-bold mb-4">Travel Taxi</h1>
           <h2 className="my-2 text-[20px] font-semibold">Worked on</h2>
           <div className="flex gap-2 flex-wrap"><div className="flex border border-transparent gap-2 rounded-full p-1 bg-[#643449]  text-white">
@@ -198,8 +198,8 @@ function Projects() {
           ))}
           </div>
         </div>
-        <div className="min-w-[380px]  flex flex-col py-2 items-center bg-[#d98fa8] border border-transparent rounded-3xl m-5">
-        <Image src={travel} width={600} height={600} className="p-4"/>
+        <div className="min-w-[380px] cursor-pointer  flex flex-col py-2 items-center bg-[#d98fa8] border border-transparent rounded-3xl m-5">
+        <Image src={travel} width={600} height={600} className="p-4 hover:scale-110 transform transition duration-100"/>
           <Link href="/" className="flex border opacity-70 gap-2 w-[300px] justify-center items-center mb-3 rounded-full p-3 bg-transparent    text-white">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
           <p className="text-[18px] my-1 text-black">Go to TravelTaxi</p>
