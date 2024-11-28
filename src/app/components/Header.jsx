@@ -1,19 +1,53 @@
 "use client"
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import "@/app/globals.css"
 export default () => {
 
   const [state, setState] = useState(false)
+  const [isVisible, setIsVisible] = useState(true); // Header visibility state
+  const [prevScrollPos, setPrevScrollPos] = useState(0); // Previous scroll position
 
-  // Replace javascript:void(0) path with your path
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollPos = window.scrollY;
+
+      if (currentScrollPos > prevScrollPos && currentScrollPos > 100) {
+        // Scrolling down and past a threshold, hide the header
+        setIsVisible(false);
+      } else {
+        // Scrolling up or near the top, show the header
+        setIsVisible(true);
+      }
+
+      setPrevScrollPos(currentScrollPos); // Update previous scroll position
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll); // Cleanup
+    };
+  }, [prevScrollPos]);
+  const handleScroll = (id) => {
+    console.log(`Scrolling to: ${id}`);
+    const section = document.getElementById(id);
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth", block: "start" });
+    } else {
+      console.error(`No element found with id: ${id}`);
+    }
+  };
+  
   const navigation = [
-      { title: "Work", path: "javascript:void(0)" },
-      { title: "About", path: "javascript:void(0)" },
-      { title: "Contact", path: "javascript:void(0)" }
+      { title: "Work", path: "projects" },
+      { title: "Experience", path: "experience" },
+      { title: "Contact", path: "contact" }
   ]
 
   return (
-      <nav className="bg-[#c9c9c9]  md:rounded-full md:my-2 w-full border-b md:border-0 md:static">
+      <nav className={`bg-[#c9c9c9] fixed top-0 z-50 w-full border-b transition-transform duration-300 ${
+        isVisible ? "translate-y-0" : "-translate-y-full"
+      }`}>
           <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
               <div className="flex items-center justify-between py-3 md:py-5 md:block">
                     <a href="javascript:void(0)">
@@ -43,9 +77,9 @@ export default () => {
                           navigation.map((item, idx) => {
                               return (
                                 <li key={idx} className="text-gray-600 hover:text-indigo-600">
-                                    <a href={item.path}>
-                                        { item.title }
-                                    </a>
+                                    <button onClick={() =>  handleScroll(item.path)}>
+                                    { item.title }
+                                    </button>
                                 </li>
                               )
                           })

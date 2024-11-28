@@ -52,9 +52,9 @@ function Exprerience() {
         </div>
         <div className=" px-8 py-5">
           {keys?.map((index, title) => (
-            <div className="flex items-baseline gap-2">
+            <div key={title} className="flex items-baseline gap-2">
               <Image src={img} width={10} height={10} alt="ntg" />
-              <h2 key={title} className="text-black text-[15px]">
+              <h2  className="text-black text-[15px]">
                 {index.title}
               </h2>
             </div>
