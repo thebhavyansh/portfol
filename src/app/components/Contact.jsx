@@ -41,6 +41,7 @@ function Contact() {
           width={100}
           height={80}
           className="border my-4 rounded-[60%]"
+          alt="kk"
         />
         <div className="text-[#cd9403] md:text-[35px] text-[30px] font-bold">
           Bhavyansh Tomar

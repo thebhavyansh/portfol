@@ -13,7 +13,7 @@ function Banner() {
         A <strong>Full Stack Developer</strong>
       </h3>
       <div className="">
-        <Image src={main} width={180} height={180} />
+        <Image src={main} width={180} alt="kl" height={180} />
       </div>
       <div className=" flex gap-5">
        <Link href="https://drive.google.com/file/d/1KE6tGCNuWSuqRCEN3GeFbBUk33IV823N/view?usp=sharing"> <button className="flex items-center gap-2 border rounded-full px-4 py-2 text-black hover:text-[#cd9403] hover:fill-[#cd9403] bg-[#cd9403] duration-150 hover:bg-transparent  border-[#cd9403] active:bg-indigo-700">

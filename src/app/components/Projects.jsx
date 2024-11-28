@@ -124,7 +124,7 @@ function Projects() {
         </div>
 
         <div className="min-w-[380px] cursor-pointer max-h-[400px]  flex items-center flex-col bg-[#0258da] border border-transparent rounded-3xl m-5">
-          <Image src={fshare} width={600} height={600} className="p-4 md:hover:scale-110 transform transition duration-100"/>
+          <Image src={fshare} width={600} height={600} alt="ksl" className="p-4 md:hover:scale-105 transform transition duration-100"/>
           <Link href="https://fshare-psi.vercel.app/" className="flex border border-transparent gap-2 w-[300px] justify-center mb-3 items-center rounded-full p-3 bg-[#263d73]    text-white">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
           <p className="text-[18px]">Go to FShare</p>
@@ -133,7 +133,7 @@ function Projects() {
       </div>
       <div className="bg-[#3f031b]  flex flex-col  md:flex-row border border-transparent justify-between rounded-3xl md:w-[900px]">
       <div className="min-w-[380px] cursor-pointer  flex flex-col items-center bg-[#7d163e] border border-transparent rounded-3xl m-5">
-      <Image src={ai} width={600} height={600} className="p-4 md:hover:scale-110 transform transition duration-100"/>
+      <Image src={ai} width={600} height={600} alt="ll" className="p-4 md:hover:scale-105 transform transition duration-100"/>
           <Link href="https://mock-interview-app-azure.vercel.app/dashboard" className="flex border opacity-70 gap-2 w-[300px] mb-3 justify-center items-center rounded-full p-3 bg-transparent    text-white">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
           <p className="text-[18px]">Go to Mock-interview</p>
@@ -161,7 +161,7 @@ function Projects() {
           <div className="flex flex-wrap gap-2">
             {tech2.map((title,index)=>(
             <div className="flex" key={index}><div className="flex border rounded-full p-1 bg-[#c9c9c9] text-black">
-            <Image src={title.logo} className="border rounded-full" width={23} height={20} alt="ll"/>
+            <Image src={title.logo} alt='ds' className="border rounded-full" width={23} height={20} alt="ll"/>
             <p className="px-2">{title.name}</p>
           </div></div>
           ))}
@@ -197,7 +197,7 @@ function Projects() {
           </div>
         </div>
         <div className="min-w-[380px] cursor-pointer  flex flex-col py-2 items-center bg-[#d98fa8] border border-transparent rounded-3xl m-5">
-        <Image src={travel} width={600} height={600} className="p-4 md:hover:scale-110 transform transition duration-100"/>
+        <Image src={travel} width={600} height={600} alt="lk" className="p-4 md:hover:scale-105 transform transition duration-100"/>
           <Link href="/" className="flex border opacity-70 gap-2 w-[300px] justify-center items-center mb-3 rounded-full p-3 bg-transparent    text-white">
           <svg width="24" height="24" xmlns="http://www.w3.org/2000/svg" fillRule="evenodd" clipRule="evenodd"><path d="M14.851 11.923c-.179-.641-.521-1.246-1.025-1.749-1.562-1.562-4.095-1.563-5.657 0l-4.998 4.998c-1.562 1.563-1.563 4.095 0 5.657 1.562 1.563 4.096 1.561 5.656 0l3.842-3.841.333.009c.404 0 .802-.04 1.189-.117l-4.657 4.656c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-1.952-1.951-1.952-5.12 0-7.071l4.998-4.998c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464.493.493.861 1.063 1.105 1.672l-.787.784zm-5.703.147c.178.643.521 1.25 1.026 1.756 1.562 1.563 4.096 1.561 5.656 0l4.999-4.998c1.563-1.562 1.563-4.095 0-5.657-1.562-1.562-4.095-1.563-5.657 0l-3.841 3.841-.333-.009c-.404 0-.802.04-1.189.117l4.656-4.656c.975-.976 2.256-1.464 3.536-1.464 1.279 0 2.56.488 3.535 1.464 1.951 1.951 1.951 5.119 0 7.071l-4.999 4.998c-.975.976-2.255 1.464-3.535 1.464-1.28 0-2.56-.488-3.535-1.464-.494-.495-.863-1.067-1.107-1.678l.788-.785z"/></svg>
           <p className="text-[18px] my-1 text-black">Go to TravelTaxi</p>
@@ -210,7 +210,7 @@ function Projects() {
       <div className="flex justify-center items-center flex-wrap gap-4 md:w-[800px]">
       {technologie.map((title,index)=>(
             <div className="flex" key={index}><div className="flex border rounded-full p-1 bg-[#c9c9c9] text-black">
-            <Image src={title.import} className="border rounded-full" width={23} height={20} alt="ll"/>
+            <Image src={title.import} alt="sj" className="border rounded-full" width={23} height={20} />
             <p className="px-2">{title.name}</p>
           </div></div>
           ))}
