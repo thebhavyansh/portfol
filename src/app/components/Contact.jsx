@@ -45,8 +45,8 @@ function Contact() {
         <div className="text-[#cd9403] md:text-[35px] text-[30px] font-bold">
           Bhavyansh Tomar
         </div>
-        <div className="text-[20px]">
-          A <strong>Full Stack Developer</strong>
+        <div className="text-[20px] flex md:flex-row flex-col items-center justify-center">
+          <p>A</p><strong>Full Stack Developer</strong>
         </div>
         <div className="flex my-4 gap-5">
           <Link href="https://drive.google.com/file/d/1KE6tGCNuWSuqRCEN3GeFbBUk33IV823N/view?usp=sharing">
