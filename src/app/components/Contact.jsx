@@ -35,7 +35,7 @@ function Contact() {
         <p>Checkout my </p>
         <strong>Resume</strong>
       </div>
-      <div className="border border-transparent rounded-2xl bg-[#2b2b2b] my-3 md:w-[800px] flex flex-col justify-center items-center">
+      <div className="border border-transparent p-2 rounded-2xl bg-[#2b2b2b] my-3 md:w-[800px] flex flex-col justify-center items-center">
         <Image
           src={profile}
           width={100}
