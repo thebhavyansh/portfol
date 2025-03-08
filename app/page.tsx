@@ -43,14 +43,14 @@ export default function Home() {
           <section className="py-12 md:py-24 lg:py-32 xl:py-40">
             <div className="container px-4 md:px-6">
               <div className="flex flex-col items-center justify-center space-y-4 text-center">
-                <div className="space-y-2">
+                <div className="space-y-6">
                 <h2 className="md:text-[55px] md:flex-row md:gap-5 flex flex-col items-center justify-center text-[30px] ft">
         <p className="sm:text-center">Hello! I'm</p> <strong className="text-[#cd9403] ">Bhavyansh Tomar</strong>
       </h2>
                   <h1 className="text-2xl my-10 font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary animate-gradient">
                    A Full Stack Developer
                   </h1>
-                  <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl dark:text-gray-400 mt-4">
+                  <p className="mx-auto max-w-[700px]  text-gray-500 md:text-xl dark:text-gray-400 my-20">
                     Crafting innovative digital solutions with cutting-edge technologies. Specialized in building
                     scalable applications, cloud architecture, and creating exceptional user experiences.
                   </p>
